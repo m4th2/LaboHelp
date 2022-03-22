@@ -8,8 +8,8 @@ Présentation du projet initial : https://nsi.xyz/labohelp
 
 ## Contributeur initiaux :
 - Vincent ROBERT
--  Kevin FEDYNA
+- Kevin FEDYNA
 - Alexandre GUTIERREZ
 
 ## Correction de bugs et poursuite du développement :
-- ...
+- Ilyas RAHMOUN

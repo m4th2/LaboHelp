@@ -24,7 +24,7 @@
 		<prop ref="1">
 
 			<t>Je n'arrive pas à me connecter</t>
-			<r>Pourquoi n'arrives tu pas à te connecter ?</r>
+			<r>Pourquoi n'arrives-tu pas à te connecter ?</r>
 			
 			<prop ref="11">
 				<t>Je ne connais pas mes identifiants</t>
@@ -90,7 +90,7 @@
 
 			<prop ref="24">
 				<t>Le compteur d'exercice est bloqué</t>
-				<r>Parfois quand tu fais un exercice, le compteur semble bloqué sur l'itération 1. Fini l'exercice pour débloquer ce compteur</r>
+				<r>Parfois quand tu fais un exercice, le compteur semble bloqué sur l'itération 1. Finis l'exercice pour débloquer ce compteur</r>
 			</prop>	
 
 
@@ -121,7 +121,7 @@
 			</prop>	
 
 			<prop ref="34">
-				<t>J'ai refait un exercices plusieurs fois, j'ai obtenu 100% à chaque fois et le compteur reste bloqué sur 0%</t>
+				<t>J'ai refait un exercice plusieurs fois, j'ai obtenu 100% à chaque fois et le compteur reste bloqué sur 0%</t>
 				<r>Tu dois faire une capture d'écran du résultat qui annonce 100% ainsi que du compteur qui affiche 0% et envoyer ces captures par courriel à ton professeur.</r>
 			</prop>	
 
@@ -140,7 +140,7 @@
 
 				<prop ref="411">
 					<t>Moi</t>
-					<r>Dans 90% des cas, l'erreur vient d'une non comprehénsion de l'exercice par l'élève et non d'un corrigé faux. Discutes de ce problème avec des camarades de classe</r>
+					<r>Dans 90% des cas, l'erreur vient d'une non comprehénsion de l'exercice par l'élève et non d'un corrigé faux. Discute de ce problème avec des camarades de classe</r>
 				</prop>
 
 				<prop ref="412">
@@ -150,12 +150,12 @@
 
 				<prop ref="413">
 					<t>Moi et un camarade de classe</t>
-					<r>Deux élèves peuvent avoir le même problème de non comprehénsion d'un exercice. Discutes de ce problème avec plusieurs camarades de classe </r>
+					<r>Deux élèves peuvent avoir le même problème de non comprehénsion d'un exercice. Discute de ce problème avec plusieurs camarades de classe </r>
 				</prop>				
 
 				<prop ref="414">
 					<t>Moi et plusieurs camarades de classe</t>
-					<r>Si un consensus ce dégage pour dire que le corrigé est faux, c'est peut-être le cas. Tu dois contacter ton enseignant et lui envoyer une capture d'écran de la correction prétendument fausse en lui communiquant plusieurs noms d'élèves qui pensent la même chose</r>
+					<r>Si un consensus se dégage pour dire que le corrigé est faux, c'est peut-être le cas. Tu dois contacter ton enseignant et lui envoyer une capture d'écran de la correction prétendument fausse en lui communiquant plusieurs noms d'élèves qui pensent la même chose</r>
 				</prop>
 
 			</prop>
@@ -169,7 +169,7 @@
 		</prop>
 
 		<prop ref="5">
-			<t>L’exercice proposé est faux ou qu'il n'a pas de solution</t>
+			<t>L’exercice proposé est faux ou il n'a pas de solution</t>
 			<r>Faux ou pas de solution ?</r>
 
 			<prop ref="51">
@@ -179,7 +179,7 @@
 
 				<prop ref="511">
 					<t>Moi</t>
-					<r>Dans 90% des cas, l'erreur vient d'une non compréhension de l'exercice par l'élève et non d'un ennoncé faux. Discutes de ce problème avec des camarades de classe</r>
+					<r>Dans 90% des cas, l'erreur vient d'une non compréhension de l'exercice par l'élève et non d'un ennoncé faux. Discute de ce problème avec des camarades de classe</r>
 				</prop>
 
 				<prop ref="512">
@@ -189,12 +189,12 @@
 
 				<prop ref="513">
 					<t>Moi et un camarade de classe</t>
-					<r>Deux élèves peuvent avoir le même problème de non comprehénsion d'un exercice. Discutes de ce problème avec plusieurs camarades de classe </r>
+					<r>Deux élèves peuvent avoir le même problème de non comprehénsion d'un exercice. Discute de ce problème avec plusieurs camarades de classe </r>
 				</prop>
 
 				<prop ref="514">
 					<t>Moi et plusieurs camarades de classe</t>
-					<r>Si un consensus ce dégage pour dire que l'exercice en infaisable, c'est peut-être le cas. Tu dois contacter ton enseignant et lui envoyer une capture d'écran de l'exercice infaisable en lui communiquant plusieurs noms d'élèves qui le pensent.</r>
+					<r>Si un consensus se dégage pour dire que l'exercice en infaisable, c'est peut-être le cas. Tu dois contacter ton enseignant et lui envoyer une capture d'écran de l'exercice infaisable en lui communiquant plusieurs noms d'élèves qui le pensent.</r>
 				</prop>
 
 			</prop>
@@ -202,7 +202,7 @@
 			<prop ref="52">
 				<t>Je pense que l'exercice n'a pas de solution</t>
 				<r>Parfois trouver qu'un exercice n'a pas de solution est la réponse !</r>
-				<r>Discutes de ce problème avec plusieurs camarades de classe</r>
+				<r>Discute de ce problème avec plusieurs camarades de classe</r>
 			</prop>
 
 		</prop>
@@ -220,9 +220,9 @@
 
 				<prop ref="62">
 					<t>Le travail porte sur un chapitre que l'on a pas encore fait en classe</t>
-					<r>Si ton enseignant t'a donné un travail sur un chapitre non fait en classe, il l'a sûrement faire de manière délibérée.</r>
+					<r>Si ton enseignant t'a donné un travail sur un chapitre non fait en classe, il l'a sûrement fait de manière délibérée.</r>
 					<r>Tu dois donc mobiliser tes connaissances, parcourir ton manuel scolaire, en discuter avec tes camarades de classe et faire ce travail !</r>
-					<r>Au pire, tu peux faire le travail en mode essai-erreur, puis tu analyse la correction pour comprendre ce que l'on attend de toi. </r>
+					<r>Au pire, tu peux faire le travail en mode essai-erreur, puis tu analyses la correction pour comprendre ce que l'on attend de toi. </r>
 				</prop>
 
 				<prop ref="63">
@@ -234,7 +234,7 @@
 				<prop ref="64">
 					<t>Tous les exercices sont trop durs</t>
 					<r>Les exercices ont été choisis avec amour par ton professeur, il pense qu'ils sont du niveau attendu. Tu devrais en discuter avec lui, mais ceci ne te dispense pas de faire le travail demandé, aussi n'hésite pas à faire ce travail au CDI ou en étude avec un camarade de classe, le travail collaboratif est encouragé.  </r>
-					<r>Certains enseignants proposent de rendre facultatifs les exercices sur labomep. Relis les consignes que ton enseignant t'a donné. </r>
+					<r>Certains enseignants proposent de rendre facultatifs les exercices sur labomep. Relis les consignes que ton enseignant t'a données. </r>
 				</prop>
 
 		</prop>
@@ -254,7 +254,7 @@
 				<prop ref="72">
 					<t>Il y a vraiment trop d'exercices à faire</t>
 					<r>Ce travail t'a été donné il y a combien de temps ?</r>
-					<r>Si Tu attends le dernier moment pour faire le travail, alors il peut en effet paraître très long.</r>
+					<r>Si tu attends le dernier moment pour faire le travail, alors il peut en effet paraître très long.</r>
 					<r>Si tu fractionnes le travail attendu, alors il te paraitra moins long !</r>
 				</prop>
 

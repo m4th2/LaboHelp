@@ -14,7 +14,7 @@
 			<div class="g"><img class="robot" src="LaboRobot.png" alt="broken"></div>
 			<div class="d">
 			<p class="lhDialog">Bienvenue sur laboHelp.</p>
-			<p class="lhInfo">Je suis LaboRobot et je vais t'aider à résoudre tes problèmes sur labomep !</p>
+			<p class="lhInfo">Je suis LaboRobot et je vais t'aider à résoudre tes problèmes sur <a class="labomep_redir" href="https://labomep.sesamath.net/" target="blank">labomep</a> !</p>
 
 			<?php include("ia_labohelp/ia.php");?>
 			
@@ -38,7 +38,7 @@
 				{
 					$retour = 0;
 				}
-				echo "'index.php?ref={$retour}'";
+				echo 'index.php?ref=' . $retour;
 			?>>Retour en arrière</a><a class="nav" href="index.php">Recommencer</a>
 			</div>
 		</div>
