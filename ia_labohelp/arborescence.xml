@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE ql [
+
+	<!ELEMENT ql ANY>
+
+	<!ELEMENT goto EMPTY>
+	<!ATTLIST goto ref CDATA #REQUIRED>
+
+	<!ELEMENT prop ANY>
+	<!ATTLIST prop ref CDATA #REQUIRED>
+	<!ATTLIST prop type CDATA "visible">
+
+	<!ELEMENT t ANY>
+	<!ELEMENT r ANY>
+	<!ELEMENT url ANY>
+]>
+
+<ql>
+
+	<prop ref="0">
+		<r>Quel est ton problème ?</r>
+
+		<prop ref="1">
+
+			<t>Je n'arrive pas à me connecter</t>
+			<r>Pourquoi n'arrives tu pas à te connecter ?</r>
+			
+			<prop ref="11">
+				<t>Je ne connais pas mes identifiants</t>
+				<r>Ton enseignant t'a donné en début d'année des identifiants et il t'a demandé de les copier dans ton agenda ou dans ton carnet de correspondance et dans ton cahier de maths.</r>
+			</prop>
+
+			<prop ref="12">
+				<t>Je ne trouve pas la page web pour me connecter à labomep</t>
+				<r>Pour se connecter sur labomep, il suffit de se rendre sur ce site web : </r>
+				<url>https://labomep.sesamath.net/</url>
+			</prop>
+
+			<prop ref="13">
+				<t>Le message d'erreur "L’authentification a échoué" s'affiche</t>
+				<r>Tu dois te tromper dans la saisie de tes identifiants. Il te faut saisir tes identifiants dans le bloc note de ton ordinateur puis procéder par copier / coller pour résoudre ce problème</r>
+				<url>https://labomep.sesamath.net/</url>
+			</prop>			
+
+			<prop ref="14">
+				<t>Le message d'erreur "not found" s'affiche</t>
+				<r>Le serveur est sûrement en maintenance. Essaye de recharger la page dans quelques minutes.</r>
+			</prop>		
+
+		</prop>
+
+
+		<prop ref="2">
+
+			<t>J'ai un problème d'affichage</t>
+			<r>Quel est ce problème d'affichage ?</r>
+
+			<prop ref="21">
+				<t>Le site internet ne s'affiche pas correctement</t>
+				<r>Tu dois utiliser l'un des navigateurs suivant pour utiliser labomep : Google Chrome, Mozilla Firefox ou Safari </r>
+				<url>https://2go.ovh/chrome</url>
+				<url>https://2go.ovh/firefox</url>
+				<url>https://2go.ovh/safari</url>
+			</prop>
+
+			<prop ref="22">
+				<t>La page est vide</t>
+				<r>Quelle page est vide ?</r>
+
+				<prop ref="221">
+					<t>La page de connexion à labomep</t>
+					<url>https://labomep.sesamath.net/</url>
+					<r>Le serveur est peut-être en maintenace. Essaye de recharger la page web dans quelques minutes.</r>
+				</prop>			
+
+				<prop ref="222">
+					<t>La page correspondant à un des exercices à faire</t>
+					<r>Si les autres pages sont également vides, tu dois réessayer plus tard (le serveur est en maintenance) ou contacter ton enseignant</r>
+					<r>Si seulement quelques pages sont vides, tu dois contacter ton enseignant, les exercices concernés sont plantés</r>
+				</prop>
+			
+			</prop>
+
+
+			<prop ref="23">
+				<t>Une partie du contenu est masquée, je ne vois pas la totalité de la page</t>
+				<r>Tu peux agrandir / réduire sur une page web avec la combinaison de touche [CTRL] [+] ou [CTRL] [-] ou à l'aide de [CTRL] + molette de la souris</r>
+			</prop>			
+
+			<prop ref="24">
+				<t>Le compteur d'exercice est bloqué</t>
+				<r>Parfois quand tu fais un exercice, le compteur semble bloqué sur l'itération 1. Fini l'exercice pour débloquer ce compteur</r>
+			</prop>	
+
+
+		</prop>
+
+
+		<prop ref="3">
+
+			<t>Mes résultats semblent ne pas s'enregistrer</t>
+			<r>Qu'est ce qui ne s'enregistre pas ?</r>
+
+
+			<prop ref="31">
+				<t>Je suis en train de faire un exercice et le compteur reste bloqué sur 1</t>
+				<r>Ce compteur est capricieux. Il faut finir l'exercice (donc répondre à environ 10 questions maximum) pour que le compteur se débloque et que le résultat en % s'affiche</r>
+			</prop>			
+
+			<prop ref="32">
+				<t>J'ai fini un exercice et il ne s'est pas enregistré</t>
+				<r>Si ta connexion internet n'est pas très stable, une micro coupure peut aboutir à ce résultat</r>
+				<r>Déconnecte toi de labomep puis reconnecte toi. Si le % ne s'affiche pas il va te falloir recommencer l'exercice</r>	
+			</prop>						
+
+			<prop ref="33">
+				<t>Je suis certain d'avoir fini un exercice, d'avoir obtenu 100% et le site affiche 0%</t>
+				<r>Ce genre de dysfonctionnement est extrêmement rare. </r>
+				<r>Déconnecte toi de labomep puis reconnecte toi. Si le % ne s'affiche pas il va te falloir recommencer l'exercice</r>
+			</prop>	
+
+			<prop ref="34">
+				<t>J'ai refait un exercices plusieurs fois, j'ai obtenu 100% à chaque fois et le compteur reste bloqué sur 0%</t>
+				<r>Tu dois faire une capture d'écran du résultat qui annonce 100% ainsi que du compteur qui affiche 0% et envoyer ces captures par courriel à ton professeur.</r>
+			</prop>	
+
+		</prop>
+
+
+		<prop ref="4">
+			<t>La correction proposée est fausse</t>
+			<r>Fausse ou incomplète ?</r>
+		
+
+			<prop ref="41">
+				<t>Je pense que la correction proposée est fausse</t>
+				<r>Les corrigés peuvent-être faux mais ceci est très rare.</r>
+				<r>Qui pense que la correction est fausse ?</r>
+
+				<prop ref="411">
+					<t>Moi</t>
+					<r>Dans 90% des cas, l'erreur vient d'une non comprehénsion de l'exercice par l'élève et non d'un corrigé faux. Discutes de ce problème avec des camarades de classe</r>
+				</prop>
+
+				<prop ref="412">
+					<t>Moi et mes parents</t>
+					<r>Si tes parents ont des compétences réelles en mathématiques, tu dois contacter ton enseignant et lui envoyer une capture d'écran de la correction prétendument fausse </r>
+				</prop>
+
+				<prop ref="413">
+					<t>Moi et un camarade de classe</t>
+					<r>Deux élèves peuvent avoir le même problème de non comprehénsion d'un exercice. Discutes de ce problème avec plusieurs camarades de classe </r>
+				</prop>				
+
+				<prop ref="414">
+					<t>Moi et plusieurs camarades de classe</t>
+					<r>Si un consensus ce dégage pour dire que le corrigé est faux, c'est peut-être le cas. Tu dois contacter ton enseignant et lui envoyer une capture d'écran de la correction prétendument fausse en lui communiquant plusieurs noms d'élèves qui pensent la même chose</r>
+				</prop>
+
+			</prop>
+			
+			<prop ref="43">
+				<t>Je pense que la correction proposée est incomplète</t>
+				<r>Il est possible que le corrigé aille à l'essentiel</r>
+				<r>Il est recommandé de chercher l'exercice sur une feuille, avec un stylo pour mieux le comprendre</r>
+			</prop>
+
+		</prop>
+
+		<prop ref="5">
+			<t>L’exercice proposé est faux ou qu'il n'a pas de solution</t>
+			<r>Faux ou pas de solution ?</r>
+
+			<prop ref="51">
+				<t>Je pense que l'exercice ne peut pas être fait</t>
+				<r>Les exercices étant écrit par des enseignants, il est peu probable qu'il soit infaisable</r>
+			<r>Qui pense que l'exercice ne peut pas être fait?</r>
+
+				<prop ref="511">
+					<t>Moi</t>
+					<r>Dans 90% des cas, l'erreur vient d'une non compréhension de l'exercice par l'élève et non d'un ennoncé faux. Discutes de ce problème avec des camarades de classe</r>
+				</prop>
+
+				<prop ref="512">
+					<t>Moi et mes parents</t>
+					<r>Si tes parents ont des compétences réelles en mathématiques, tu dois contacter ton enseignant et lui envoyer une capture d'écran de l'exercice prétendument infaisable</r>
+				</prop>
+
+				<prop ref="513">
+					<t>Moi et un camarade de classe</t>
+					<r>Deux élèves peuvent avoir le même problème de non comprehénsion d'un exercice. Discutes de ce problème avec plusieurs camarades de classe </r>
+				</prop>
+
+				<prop ref="514">
+					<t>Moi et plusieurs camarades de classe</t>
+					<r>Si un consensus ce dégage pour dire que l'exercice en infaisable, c'est peut-être le cas. Tu dois contacter ton enseignant et lui envoyer une capture d'écran de l'exercice infaisable en lui communiquant plusieurs noms d'élèves qui le pensent.</r>
+				</prop>
+
+			</prop>
+
+			<prop ref="52">
+				<t>Je pense que l'exercice n'a pas de solution</t>
+				<r>Parfois trouver qu'un exercice n'a pas de solution est la réponse !</r>
+				<r>Discutes de ce problème avec plusieurs camarades de classe</r>
+			</prop>
+
+		</prop>
+
+		<prop ref="6">
+			<t>Le travail à faire est trop dur</t>
+			<r>Labomep est conçu pour te permettre de travailler en toute autonomie.</r>
+			<r>Qu'est ce qui est trop dur ?</r>
+
+				<prop ref="61">
+					<t>Le travail porte sur un chapitre sur lequel j'ai des lacunes de collège</t>
+					<r>Labomep est un formidable outil pour travailler les automatismes et rattraper les lacunes de collège.</r>
+					<r>Profites en pour travailler avec sérieux ces lacunes.</r>
+				</prop>
+
+				<prop ref="62">
+					<t>Le travail porte sur un chapitre que l'on a pas encore fait en classe</t>
+					<r>Si ton enseignant t'a donné un travail sur un chapitre non fait en classe, il l'a sûrement faire de manière délibérée.</r>
+					<r>Tu dois donc mobiliser tes connaissances, parcourir ton manuel scolaire, en discuter avec tes camarades de classe et faire ce travail !</r>
+					<r>Au pire, tu peux faire le travail en mode essai-erreur, puis tu analyse la correction pour comprendre ce que l'on attend de toi. </r>
+				</prop>
+
+				<prop ref="63">
+					<t>L'un des exercices est trop dur.</t>
+					<r>Certains exercices sont plus difficiles que d'autres, ceci n'est pas anormal</r>
+					<r>Tu peux aller faire cet exercice au CDI ou en étude avec un camarade de classe, le travail collaboratif est encouragé. On ne progresse pas en ne cherchant que des exercices faciles !</r>
+				</prop>
+
+				<prop ref="64">
+					<t>Tous les exercices sont trop durs</t>
+					<r>Les exercices ont été choisis avec amour par ton professeur, il pense qu'ils sont du niveau attendu. Tu devrais en discuter avec lui, mais ceci ne te dispense pas de faire le travail demandé, aussi n'hésite pas à faire ce travail au CDI ou en étude avec un camarade de classe, le travail collaboratif est encouragé.  </r>
+					<r>Certains enseignants proposent de rendre facultatifs les exercices sur labomep. Relis les consignes que ton enseignant t'a donné. </r>
+				</prop>
+
+		</prop>
+
+
+		<prop ref="7">
+			<t>Le travail à faire est trop long</t>
+			<r>Pourquoi trouves tu ce travail trop long ?</r>
+
+
+				<prop ref="71">
+					<t>Je dois finir ce travail pour demain et je ne l'aurais jamais fini</t>
+					<r>Il est évident qu'en faisant ce travail au dernier moment tu t'es mis tout seul dans le pétrin.  </r>
+					<r>La prochaine fois il faudra anticiper et commencer ce travail bien à l'avance, afin de pouvoir le finir dans la sérénité.</r>
+				</prop>
+
+				<prop ref="72">
+					<t>Il y a vraiment trop d'exercices à faire</t>
+					<r>Ce travail t'a été donné il y a combien de temps ?</r>
+					<r>Si Tu attends le dernier moment pour faire le travail, alors il peut en effet paraître très long.</r>
+					<r>Si tu fractionnes le travail attendu, alors il te paraitra moins long !</r>
+				</prop>
+
+		</prop>
+
+		<prop ref="8">
+			<t>J'ai un autre problème ou une question</t>
+			<r>Précise ta demande</r>		
+
+			<prop ref="81">
+				<t>Comment est évalué mon travail sur labomep </t>
+				<r>Chaque enseignant a sa propre grille d'évaluation du travail, beaucoup d'enseignants ne corrigent et n'évaluent que le meilleur résultat obtenu sur un exercice, ainsi refaire un exercice pour améliorer son score est une excellente chose</r>
+			</prop>
+
+			<prop ref="82">
+				<t>Si je ne fais pas le travail demandé , puis-je inventer une histoire pour me justifier ?</t>
+				<r>NON ! Il ne faut pas prendre ton enseignant pour un jambon. Sur son interface, il voit les jours et les heures auxquels tu t'es connecté, donc lui raconter une histoire ne marchera pas.</r>
+			</prop>
+
+			<prop ref="83">
+				<t>Je souhaite être dispensé de ces travaux sur labomep</t>
+				<r>Chaque enseignant a sa propre grille d'évaluation du travail, et certains proposent à leurs élèves en difficultés une dispense partielle ou totale. Lisez les différentes consignes de votre enseignant pour en savoir plus.</r>
+			</prop>
+
+			<prop ref="84">
+				<t>Que voit le professeur sur son interface ?</t>
+				<r>Les dates et heures auxquelles tu t'es connecté, le nombre de fois que tu as fait chaque exercice, le meilleur taux de réussite de chaque exercice.</r>
+			</prop>
+
+			<prop ref="85"> 
+				<t>Comment je fais pour saisir une puissance ?</t>
+				<r>Sur ton clavier, il y a une touche ^ qui te permet de saisir une puissance. En tappant sur [2]+[^]+[3] tu affiches le cube de 2.</r>
+			</prop>
+
+			<prop ref="86">
+				<t>Je ne peux pas valider ma saisie car le bouton [OK] n'apparaît pas !</t>
+				<r>Si le bouton [OK] n'est pas affiché à l'écran, tu peux juste taper ton résultat et valider la saisie en appuyant sur la touche [Entrée] de ton clavier</r>
+			</prop>
+
+			<prop ref="87">
+				<t>Le travail à faire est trop long</t>
+				<goto ref="7" />
+			</prop>
+
+			<prop ref="88">
+				<t>Mon problème ou ma question n'est pas listé </t>
+				<r>labohelp a été conçu pour répondre à 99% des problèmes rencontrés par les élèves.</r>
+				<r>Si nous n'avons pas pu t'aider, nous t'invitons à contacter ton professeur, et à lui présenter avec précision le problème rencontré.</r>
+			</prop>
+
+		</prop>
+
+		<prop ref="9" type="hidden">
+			<t>Menu caché pas actif !</t>	
+			<t>Il y a par contre 6 pages cachées sur ce site ...</t>	
+		</prop>
+
+		<prop ref="42" type="hidden">
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>
+			<t>Pourquoi 42 ?</t>
+			<r>La grande question sur la vie, l'univers et le reste</r>
+			<r>Le nombre 42 est le code ASCII pour l’astérisque *, un métacaractère fréquemment utilisé indiquant tout nombre ou caractère dans un programme. Cela pourrait être interprété comme la réponse « tout ce que vous voulez que ce soit</r>
+			<url>https://2go.ovh/theanswer</url>
+		</prop>
+
+		<prop ref="ROBERT" type="hidden">
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>
+			<t>Vincent ROBERT ?</t>	
+			<t>Enseignant de mathématiques passionné et autodidacte en informatique</t>
+			<r>Oui c'est vrai, ce DM sur labomep comporte 15 exercices, mais considère le comme un échauffement car le prochain en contiendra 25 !</r>
+			<r>Et surtout n'oublies pas que tu peux recommencer autant de fois que tu veux chaque exercice !</r>												
+		</prop>
+
+		<prop ref="FEDYNA" type="hidden">
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>	
+			<t>Kevin FEDYNA ?</t>		
+			<t>Codeur brillant et intuitif</t>
+			<r>Un script php qui importe et traite un .xml, qui gère un rendu HTML arborescent  ? </r>
+			<r>Pas de problème, c'est comme si c'était fait !</r>						
+		</prop>
+
+		<prop ref="GUTIERREZ" type="hidden">
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>		
+			<t>Alexandre GUTIERREZ ?</t>	
+			<r>Illustrateur amateur de génie.</r>
+			<r>Demandez lui un croquis avec un robot, il vous en fait 10, plus beaux les uns que les autres en vous disant : "Ils sont tous ratés !"</r>
+		</prop>
+
+		<prop ref="gutierrez" type="hidden">
+			<goto ref="GUTIERREZ" />		
+		</prop>
+
+		<prop ref="fedyna" type="hidden">
+			<goto ref="FEDYNA" />		
+		</prop>
+
+		<prop ref="robert" type="hidden">
+			<goto ref="ROBERT" />		
+		</prop>
+
+		<prop ref="nsi" type="hidden">
+			<goto ref="NSI" />		
+		</prop>
+
+		<prop ref="NSI" type="hidden">
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>		
+			<t>La spécialité Numériques et Sciences Informatiques (NSI)</t>	
+			<r>La spécialité NSI est proposée au lycée Louis Pasteur aux élèves ayant choisi de préparer un baccalauréat général</r>
+			<r>Cet enseignement s’appuie sur l’universalité de quatre concepts fondamentaux et la variété de leurs interactions : les données , les algorithmes, les langages, les machines.</r>
+			<url>https://2go.ovh/spensi</url>
+		</prop>
+
+		<prop ref="120" type="hidden">
+			<goto ref="ROBERT" />		
+		</prop>
+
+		<prop ref="666" type="hidden">
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>	
+			<t>Pourquoi 666 ?</t>
+			<r>En numération romaine, 666 s'écrit : DCLXVI. Soit tous les chiffres romains (hormis M) en ordre décroissant.</r>
+			<r>1+2+3+...+35+36=666</r>
+			<r>sin(666°)=cos(6x6x6°)=-phi/2</r>
+			<r>Le nombre 666 est, selon certains manuscrits de l'Apocalypse (Bible, Nouveau Testament), le « Nombre de la Bête »</r>
+		</prop>
+
+	</prop>
+
+</ql>

@@ -1,0 +1,107 @@
+/* Corps du html */
+
+body{
+	margin: 0;
+	padding: 0;
+	font: 18px "Lucida Sans Unicode", sans-serif;
+}
+
+.titre{
+	font-size: 24px;
+}
+
+a{
+	text-decoration: none;
+	color: #cd5c5c;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Le pimp de labohelp */
+
+#espaceProf{
+	display: inline-block;
+	padding: 1em;
+}
+
+#labohelp{
+	border: solid 1px #0f0f0f;
+	background-color: #f0f0f0;
+	padding: 1em;
+	width: 50%;
+}
+
+#labohelp .lhDialog{
+	font-style: italic;
+}
+
+#labohelp .usDialog{
+	text-align: right;
+}
+
+#labohelp .usDialog{
+	color: #2020f0;
+}
+
+input[type=text]{
+	outline:0;
+	padding: 10px 15px;
+	border: 3px solid #cd5c5c;
+	border-radius:5px;
+	color: #cd5c5c;
+	font: 18px "Lucida Sans Unicode", sans-serif;
+	transition-property: border-radius;
+	transition-duration: 200ms;
+}
+
+input[type=text]:focus{
+	border-radius:10px;
+}
+
+input[type=submit]{
+	outline:0;
+	padding: 10px 15px;
+	border: 3px solid #cd5c5c;
+	background-color: white;
+	border-radius:5px;
+	color: #cd5c5c;
+	font: 18px "Lucida Sans Unicode", sans-serif;
+	transition-property: border-radius,color,background-color,border;
+	transition-duration: 200ms;
+}
+
+input[type=submit]:hover{
+	background-color: #cd5c5c;
+	border-radius:10px;
+	color:white;
+}
+
+/* Haut de page */
+
+#header{
+	padding: 1em 3em;
+	background-color: #cd5c5c;
+	color: white;
+}
+
+/* Corps de page*/
+
+#corps{
+	padding: 1em;
+	margin: 2em;
+}
+
+/* Bas de page */
+
+#footer{ 
+	padding: 1em;
+	text-align: center;
+	background-color: #cd5c5c;
+	color: white;
+}
+
+#footer a{
+	color: white;
+}

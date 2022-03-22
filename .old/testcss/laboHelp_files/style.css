@@ -1,0 +1,183 @@
+/* Corps du html */
+
+body{
+	margin: 0;
+	padding: 0;
+	font: 18px "Lucida Sans Unicode", sans-serif;
+	color: #474647;
+	background-color: #474647;
+}
+
+/* Haut de page */
+
+#header{
+	float: left;
+	padding: 1em;
+	color: white;
+	width: 100%;
+	font-size: 1.5em;
+}
+
+#header a {
+	color: #eeb902;
+}
+
+/* Corps de page*/
+
+#corps{
+	float: left;
+	padding: 1.5em;
+	background-color: white;
+}
+
+/* Bas de page */
+
+#footer{ 
+	float: left;
+	padding: 1.5em;
+	text-align: center;
+	color: white;
+	width: 100%;
+}
+
+#footer a {
+	color: #f45d01;	
+}
+
+#footer .small{
+	font-size: 0.8em;
+} 
+
+
+a {
+	text-decoration: none;
+	color: #97cc04;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Le pimp de labohelp */
+
+#espaceProf{
+	display: inline-block;
+	padding: 1em;
+}
+
+#labohelp{
+	float: left;
+	width: 100%;
+	padding: 1em 0em;
+}
+
+#labohelp .lhDialog{
+
+	float: left;
+	width: 60%;
+	margin : 1%;
+	outline:0;
+	padding: 0.5em;
+	border: 3px solid #2d7dd2;
+	background-color: #2d7dd2;
+	border-radius:10px;
+	color: white;
+}
+
+#labohelp .lhInfo{
+
+	float: left;
+	width: 60%;
+	margin : 1%;
+	outline:0;
+	padding: 0.5em;
+	border: 3px solid #bbbbbb;
+	background-color: #bbbbbb;
+	border-radius:10px;
+	color: white;
+}
+
+#labohelp .usDialog{
+	float: right;
+	width: 60%;
+	margin : 1%;
+	margin : 1%;
+	outline:0;
+	padding: 0.5em;
+	border: 3px solid #f45d01;
+	background-color: #f45d01;
+	border-radius:10px;
+	color: white;
+}
+
+#labohelp .lhfDialog{
+	float: left;
+	width: 60%;
+	margin : 1%;
+	margin : 1%;
+	outline:0;
+	padding: 0.5em;
+	border: 3px solid #97cc04;
+	background-color: #97cc04;
+	border-radius:10px;
+	color: white;
+}
+
+.g {
+	float: left;
+	width: 30%;
+}
+
+.d {
+	float: right;
+	width: 69%;
+	margin-left: 1%;
+}
+
+input[type=text]{
+	outline:0;
+	padding: 10px 15px;
+	border: 3px solid #cd5c5c;
+	border-radius:5px;
+	color: #cd5c5c;
+	font: 1em "Lucida Sans Unicode", sans-serif;
+}
+
+.robot {
+	width: 100%;
+}
+
+input[type=submit]{
+	float: left;
+	width: 48%;
+	height: 5em;
+	margin : 1%;
+	outline:0;
+	padding: 0.5em;
+	border: 3px solid #eeb902;
+	background-color: #eeb902;
+	border-radius:10px;
+	color: white;
+	font: 1em "Lucida Sans Unicode", sans-serif;
+}
+
+input[type=submit].navigation {
+		border: #aaaaaa;
+		color: white;
+		background-color: #aaaaaa;
+}
+
+
+input[type=submit]:hover{
+	border: #f45d01;
+	background-color: #f45d01;
+	transition-property: color,background-color,border;
+	transition-duration: 1000ms;
+}
+
+input[type=submit].navigation:hover{
+	background-color: #555555;
+	border: #555555;
+	color:white;
+}
+

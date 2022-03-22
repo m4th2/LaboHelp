@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<!DOCTYPE ql [
+
+	<!ELEMENT ql ANY>
+
+	<!ELEMENT goto EMPTY>
+	<!ATTLIST goto ref CDATA #REQUIRED>
+
+	<!ELEMENT prop ANY>
+	<!ATTLIST prop ref CDATA #REQUIRED>
+
+	<!ELEMENT t ANY>
+	<!ELEMENT r ANY>
+	<!ELEMENT url ANY>
+
+]>
+
+<ql>
+
+	<prop ref="0">
+		<r>Quel est ton problème ?</r>
+
+		<prop ref="1">
+
+			<t>Je n'arrive pas à me connecter.</t>
+			
+			<prop ref="11">
+			<t>Je ne connais pas mes identifiants</t>
+			<r>Ton enseignant t'a donné en début d'année des identidiants et il t'a demandé de les copier dans ton agenda ou dans ton carnet de correspondance et dans ton cahier de maths.</r>
+			</prop>
+
+			<prop ref="12">
+			<t>Je ne trouve pas la page pour me connecter à labomep</t>
+			<r>Pour se connecter sur labomep, il suffit de se rendre sur ce site web </r>
+			<url>https://labomep.sesamath.net/</url>
+			</prop>
+
+			<prop ref="13">
+			<t>Le message d'erreur "L’authentification a échoué" s'affiche</t>
+			<r>Tu dois te tromper dans la saisie. Tu dois saisir tes identifiants dans le bloc note puis faire des copier / coller pour résoudre ce problème</r>
+			<url>https://labomep.sesamath.net/</url>
+			</prop>			
+
+			<prop ref="14">
+			<t>Le message d'erreur "not found" s'affiche</t>
+			<r>Le serveur est peut-être en travaux. Essaye de recharger la page dans quelques minutes.</r>
+			</prop>	
+			
+		</prop>
+
+
+		<prop ref="2">
+
+			<t>J'ai un problème d'affichage</t>
+
+			<prop ref="21">
+			<t>Le site internet ne s'affiche pas correctement</t>
+			<r>Tu dois utiliser l'un des navigateurs suivant pour utiliser labomep : Google Chrome, Mozilla Firefox ou Safari </r>
+			<url>https://www.google.com/chrome/</url><url>https://www.mozilla.org/fr/firefox/new/</url><url>https://www.apple.com/safari/</url>
+			</prop>
+
+			<prop ref="22">
+			<t>La page est vide</t>
+			<r>Quelle page est vide ?</r>
+
+				<prop ref="221">
+				<t>La page de connexion à labomep</t>
+				<url>https://labomep.sesamath.net/</url>
+				<r>Le serveur est peut-être en travaux. Essaye de recharger la page dans quelques minutes.</r>
+				</prop>			
+
+				<prop ref="222">
+				<t>La page correspondant à un des exercices à faire</t>
+				<r>Si les autres pages sont également vide, tu dois réassayer plus tard ou contacter ton enseignant</r>
+				<r>Si seulement quelques pages sont vides, tu dois contacter ton enseignant, l'exercice est planté</r>
+				</prop>
+			
+			</prop>
+
+
+			<prop ref="23">
+			<t>blabla</t>
+			<r>blabla</r>
+			</prop>			
+
+			<prop ref="24">
+			<t>blabla</t>
+			<r>blabla</r>
+			</prop>	
+
+
+		</prop>
+
+
+		<prop ref="3">
+			<t>Mes résultats semblent ne pas s'enregistrer</t>
+		</prop>
+
+
+		<prop ref="4">
+			<t>La correction proposée est fausse</t>
+		</prop>
+
+
+		<prop ref="5">
+			<t>L’exercice proposée et faux (pas de solution)</t>
+		</prop>
+
+
+		<prop ref="6">
+			<t>Le travail à faire est trop dur</t>
+		</prop>
+
+
+		<prop ref="7">
+			<t>Le travail à faire est trop long</t>
+		</prop>
+
+
+		<prop ref="8">
+			<t>J'ai un autre problème</t>
+		</prop>
+
+	</prop>
+
+</ql>

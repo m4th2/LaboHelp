@@ -1,0 +1,249 @@
+/* did you find the 6 hidden pages on https://labohelp.nsi.xyz/ ? */
+/* Corps du html */
+
+body{
+	margin: 0;
+	padding : 0;
+	font: 18px "Lucida Sans Unicode", sans-serif;
+	color: #474647;
+}
+
+/* Haut de page */
+
+#header{
+	float: left;
+	padding: 1em;
+	color: white;
+	width: 100%;
+	font-size: 1.5em;
+	background-color: #474647;
+}
+
+#header a {
+	color: #eeb902;
+}
+
+/* Corps de page*/
+
+#corps{
+	float: left;
+	padding: 0 1em 0 1em;
+	background-color: white;
+}
+
+/* Bas de page */
+
+#footer{ 
+	float: left;
+	padding: 1em;
+	text-align: center;
+	color: white;
+	width: 100%;
+	background-color: #474647;
+}
+
+#footer a {
+	color: #f45d01;	
+}
+
+#footer .small{
+	font-size: 0.8em;
+} 
+
+
+a {
+	text-decoration: none;
+	color: #97cc04;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+/* Le pimp de labohelp */
+
+#espaceProf{
+	display: inline-block;
+	padding: 1em;
+}
+
+#labohelp{
+	float: left;
+	width: 100%;
+	padding: 1em 0em;
+}
+
+#labohelp .lhDialog{
+
+	float: left;
+	width: 80%;
+	margin : 0;
+	outline:0;
+	padding: 0.8em;
+	border: 5px solid white;
+	background-color: #2d7dd2;
+	border-radius:1em;
+	color: white;
+}
+
+#labohelp .lhInfo{
+
+	float: left;
+	width: 80%;
+	margin : 0;
+	outline: 0;
+	padding: 0.8em;
+	border: 5px solid white;
+	background-color: #bbbbbb;
+	border-radius:1em;
+	color: white;
+}
+
+#labohelp .usDialog{
+	float: right;
+	width: 80%;
+	margin : 0;
+	outline: 0;
+	padding: 0.8em;
+	border: 5px solid white;
+	background-color: #f45d01;
+	border-radius:1em;
+	color: white;
+}
+
+#labohelp .lhfDialog{
+	float: left;
+	width: 95%;
+	margin : 0;
+	outline: 0;
+	outline:0;
+	padding: 0.8em;
+	border: 5px solid white;
+	background-color: #97cc04;
+	border-radius:1em;
+	color: white;
+}
+
+a.lhlDialog{
+	float: left;
+	width: 42%;
+	margin : 0;
+	outline: 0;
+	outline:0;
+	padding: 0.8em;
+	border: 5px solid white;
+	border: 5px solid white;
+	background-color: #97cc04;
+	border-radius:1em;
+	color: white;
+	text-align: center;
+}
+
+
+.g {
+	float: left;
+	width: 16%;
+}
+
+.d {
+	float: right;
+	width: 81%;
+	margin-left: 1%;
+}
+
+input[type=text]{
+	outline:0;
+	padding: 10px 15px;
+	border: 3px solid #cd5c5c;
+	border-radius:1em;
+	color: #cd5c5c;
+	font: 1em "Lucida Sans Unicode", sans-serif;
+}
+
+.robot {
+	width: 100%;
+}
+
+a.proposition{
+	float: left;
+	width: 46%;
+	padding: 1em 0em;
+	min-height: 3.2em;
+	margin : 0;
+	outline:0;
+	padding: 0.8em;
+	border: 5px solid white;
+	background-color: #eeb902;
+	border-radius:1em;
+	color: white;
+	text-align: center;
+}
+
+a.nav {
+	float: left;
+	width: 46%;
+	padding: 1em 0em;
+	margin : 0;
+	min-height: 2em;
+	outline:0;
+	padding: 0.8em;
+	border: 5px solid white;
+	border-radius:1em;
+	color: white;
+	background-color: #aaaaaa;
+	text-align: center;
+}
+
+
+a.proposition:hover{
+	background-color: #f45d01;
+	transition-property: background-color;
+	transition-duration: 1000ms;
+	text-decoration: none;
+}
+
+a.nav:hover{
+	background-color: #555555;
+	color:white;
+	transition-property: background-color;
+	transition-duration: 1000ms;
+	text-decoration: none;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+	.g {
+	width: 60%;
+	margin : 0 0 0 15%;
+
+
+	}
+
+	.d {
+	width: 100%;
+	}
+
+	a.proposition{
+	float: left;
+	width: 100%;
+	padding: 0.5em 0em;
+	min-height: 3.1em;	
+	}
+
+	a.nav {
+	width: 100%;
+	padding: 0.5em 0em;
+	min-height: 3.1em;		
+	}
+
+	body{
+	font-size: 36px;
+	}
+
+	#header{
+	font-size: 1.05em;
+	}
+
+}
+
