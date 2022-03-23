@@ -4,9 +4,6 @@
 
 	<!ELEMENT ql ANY>
 
-	<!ELEMENT goto EMPTY>
-	<!ATTLIST goto ref CDATA #REQUIRED>
-
 	<!ELEMENT prop ANY>
 	<!ATTLIST prop ref CDATA #REQUIRED>
 	<!ATTLIST prop type CDATA "visible">
@@ -294,11 +291,6 @@
 				<r>Si le bouton [OK] n'est pas affiché à l'écran, tu peux juste taper ton résultat et valider la saisie en appuyant sur la touche [Entrée] de ton clavier</r>
 			</prop>
 
-			<prop ref="87">
-				<t>Le travail à faire est trop long</t>
-				<goto ref="7" />
-			</prop>
-
 			<prop ref="88">
 				<t>Mon problème ou ma question n'est pas listé </t>
 				<r>labohelp a été conçu pour répondre à 99% des problèmes rencontrés par les élèves.</r>
@@ -322,41 +314,25 @@
 
 		<prop ref="ROBERT" type="hidden">
 			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>
-			<t>Vincent ROBERT ?</t>	
+			<t>Vincent ROBERT ?</t>
 			<t>Enseignant de mathématiques passionné et autodidacte en informatique</t>
 			<r>Oui c'est vrai, ce DM sur labomep comporte 15 exercices, mais considère le comme un échauffement car le prochain en contiendra 25 !</r>
-			<r>Et surtout n'oublies pas que tu peux recommencer autant de fois que tu veux chaque exercice !</r>												
+			<r>Et surtout n'oublies pas que tu peux recommencer autant de fois que tu veux chaque exercice !</r>									
 		</prop>
 
 		<prop ref="FEDYNA" type="hidden">
-			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>	
-			<t>Kevin FEDYNA ?</t>		
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>
+			<t>Kevin FEDYNA ?</t>
 			<t>Codeur brillant et intuitif</t>
 			<r>Un script php qui importe et traite un .xml, qui gère un rendu HTML arborescent  ? </r>
-			<r>Pas de problème, c'est comme si c'était fait !</r>						
+			<r>Pas de problème, c'est comme si c'était fait !</r>
 		</prop>
 
 		<prop ref="GUTIERREZ" type="hidden">
-			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>		
-			<t>Alexandre GUTIERREZ ?</t>	
+			<t>Vous venez d'accéder à l'une des 6 pages cachées sur ce site</t>
+			<t>Alexandre GUTIERREZ ?</t>
 			<r>Illustrateur amateur de génie.</r>
 			<r>Demandez lui un croquis avec un robot, il vous en fait 10, plus beaux les uns que les autres en vous disant : "Ils sont tous ratés !"</r>
-		</prop>
-
-		<prop ref="gutierrez" type="hidden">
-			<goto ref="GUTIERREZ" />		
-		</prop>
-
-		<prop ref="fedyna" type="hidden">
-			<goto ref="FEDYNA" />		
-		</prop>
-
-		<prop ref="robert" type="hidden">
-			<goto ref="ROBERT" />		
-		</prop>
-
-		<prop ref="nsi" type="hidden">
-			<goto ref="NSI" />		
 		</prop>
 
 		<prop ref="NSI" type="hidden">
@@ -365,10 +341,6 @@
 			<r>La spécialité NSI est proposée au lycée Louis Pasteur aux élèves ayant choisi de préparer un baccalauréat général</r>
 			<r>Cet enseignement s’appuie sur l’universalité de quatre concepts fondamentaux et la variété de leurs interactions : les données , les algorithmes, les langages, les machines.</r>
 			<url>https://2go.ovh/spensi</url>
-		</prop>
-
-		<prop ref="120" type="hidden">
-			<goto ref="ROBERT" />		
 		</prop>
 
 		<prop ref="666" type="hidden">

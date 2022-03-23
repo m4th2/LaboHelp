@@ -52,11 +52,6 @@ function dialog($ref, $xmlClass)
 				{
 					echo "<p class='usDialog'>". $child . "</p>\n";	
 				}
-				if ($child->getName() == "goto")
-				{
-					header("Location: index.php?ref={$child['ref']}");
-					exit();
-				}
 			}	
 		}
 	}
