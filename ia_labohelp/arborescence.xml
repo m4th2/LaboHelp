@@ -291,6 +291,10 @@
 				<r>Si le bouton [OK] n'est pas affiché à l'écran, tu peux juste taper ton résultat et valider la saisie en appuyant sur la touche [Entrée] de ton clavier</r>
 			</prop>
 
+			<prop ref="87">
+				<t>Le travail à faire est trop long</t>
+			</prop>
+
 			<prop ref="88">
 				<t>Mon problème ou ma question n'est pas listé </t>
 				<r>labohelp a été conçu pour répondre à 99% des problèmes rencontrés par les élèves.</r>

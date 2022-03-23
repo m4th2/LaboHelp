@@ -55,6 +55,10 @@ body{
 	font-size: 0.8em;
 } 
 
+#footer .source{
+	color: #474647;
+}
+
 
 a {
 	text-decoration: none;
