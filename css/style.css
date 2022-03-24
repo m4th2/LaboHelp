@@ -224,39 +224,99 @@ a.nav:hover{
 }
 
 
+/* Portrait */
 @media screen and (max-width: 1000px) {
 
+	body{
+		overflow-x: hidden;
+	}
+
 	.g {
-	width: 60%;
-	margin : 0 0 0 15%;
-
-
+		width: 40%;
+		margin : 0 0 0 15%;
 	}
 
 	.d {
-	width: 100%;
+		width: 100%;
+	}
+
+	.lhDialog,
+	.lhfDialog,
+	.lhlDialog,
+	.usDialog,
+	.lhInfo {
+		width: 100%;
+		font-size: 30px;
 	}
 
 	a.proposition{
-	float: left;
-	width: 100%;
-	padding: 0.5em 0em;
-	min-height: 3.1em;	
+		width: 100%;
+		padding: 0.3em 0em;
+		min-height: 3.1em;	
+		font-size: 35px;
 	}
 
 	a.nav {
-	width: 100%;
-	padding: 0.5em 0em;
-	min-height: 3.1em;		
-	}
-
-	body{
-	font-size: 36px;
+		width: 100%;
+		padding: 0.1em 0em;
+		min-height: 3.1em;
+		font-size: 35px;	
 	}
 
 	#header{
-	font-size: 1.05em;
+		font-size: 36px;
+		width: 102.5%;
+	}
+
+	#footer{ 
+		font-size: 27.5px;
+		width: 104.25%;
 	}
 
 }
 
+/* Paysage */
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+
+	body{
+		overflow-x: hidden;
+	}
+
+	.g{
+		width: 17.5%;
+	}
+
+	.lhDialog,
+	.lhfDialog,
+	.lhlDialog,
+	.usDialog,
+	.lhInfo {
+		width: 100%;
+		font-size: 22.5px;
+	}
+
+	a.proposition{
+		width: 100%;
+		padding: 0.3em 0em;
+		min-height: 3.1em;
+		font-size: 25px;
+	}
+
+	a.nav {
+		width: 100%;
+		padding: 0.1em 0em;
+		min-height: 3.1em;
+		font-size: 25px;	
+	}
+
+	#header{
+		font-size: 27px;
+		width: 102.9%;
+	}
+
+	#footer{ 
+		font-size: 20px;
+		width: 104.2%;
+	}
+
+}
