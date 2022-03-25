@@ -88,4 +88,34 @@ function propose($ref, $xmlClass,$type="visible")
 		}
 	}
 }
+
+function icounter()
+{
+	$file = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'ia_labohelp' . DIRECTORY_SEPARATOR . 'counter.txt';
+	$frefs = array('11', '12', '13', '14', '21', '221', '222', '23', '24', '31', '32', '33', '34', '411', '412', '413', '414', '43', '511', '512', '513', '514', '52', '61', '62', '63', '64', '71', '72', '81', '82', '83', '84', '85', '86', '88');
+	if (file_exists($file))
+	{
+		if (isset($_GET['ref']))
+		{
+			if (in_array($_GET['ref'], $frefs))
+			{
+				$counter = intval(file_get_contents($file));
+				$counter++;
+				file_put_contents($file, $counter);
+			}
+		}
+	}
+	else{
+		echo 'Une erreur est survenue lors du chargement du compteur. Si le problème persiste : <a href="mailto:cent20@gmail.com">cent20@gmail.com</a>';
+	}
+}
+
+function getcounter()
+{
+	$file = dirname(__DIR__) . DIRECTORY_SEPARATOR . 'ia_labohelp' . DIRECTORY_SEPARATOR . 'counter.txt';
+	if (file_exists($file))
+	{
+		return file_get_contents($file);
+	}
+}
 ?>
